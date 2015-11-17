@@ -124,6 +124,7 @@ public class SplashActivity extends Activity {
                                 Intent topAppsIntent = new Intent(SplashActivity.this, TopAppsActivity.class);
                                 startActivity(topAppsIntent);
                                 overridePendingTransition(R.anim.zoom_forward_in, R.anim.zoom_forward_out);
+                                SplashActivity.this.finish();
 
                             }
                         })
